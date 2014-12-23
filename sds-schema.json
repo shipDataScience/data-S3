@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "iamAccessKey": {
+      "id": "http://jsonschema.net/iamAccessKey#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    },
+    "iamSecretKey": {
+      "id": "http://jsonschema.net/iamSecretKey#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    },
+    "region": {
+      "id": "http://jsonschema.net/region#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    },
+    "key": {
+      "id": "http://jsonschema.net/key#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    },
+    "bucket": {
+      "id": "http://jsonschema.net/bucket#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    },
+    "outPath": {
+      "id": "http://jsonschema.net/outPath#",
+      "type": "string",
+      "default": "",
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "iamAccessKey",
+    "iamSecretKey",
+    "region",
+    "key",
+    "bucket",
+    "outPath"
+  ]
+}
